@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<title>tomato monster</title>
+      
+	<style type="text/css">
+
+		#mycanvas{
+			border: 5px solid red;
+			background : url("Images/bg2.png");
+			-webkit-animation: animatedBackground 10s linear infinite;
+			background-repeat: repeat-y;
+		}
+
+		@-webkit-keyframes animatedBackground {
+			from { background-position: 0 0; }
+			to { background-position: 0 1000px; }
+		}
+
+	</style>
+</head>
+	<body>
+     <div class="card text-center">
+  <div class="card-header">
+    Save Omar
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">use keyboad arrows to move omar picture,run away from  monsters,if monster touch omar the game will alert you and restart after press ok.</h5>
+    <p class="card-text"><canvas id="mycanvas"  width="900" height="580"> </canvas>
+
+		<script type="text/javascript" src="omar.js"></script></p>
+    
+  </div>
+  <div class="card-footer text-muted">
+    good luck
+  </div>
+</div>
+		
+
+
+	</body>
+</html>
